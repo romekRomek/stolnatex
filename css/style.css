@@ -392,10 +392,15 @@
 
 	.st-service{
 		margin-top: 30px;
+		padding: 15px;
 	}
+	.st-service:hover{
+		background: #616161;
+		color: #fff;
+		border-radius: 10px;	}
 
 	.st-service h2{
-		font-size: 16px;
+		font-size: 25px;
 		margin-top: 0;
 		margin-bottom: 15px;
 	}
