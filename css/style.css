@@ -273,7 +273,7 @@
 	.carousel-caption h1 {
 		font-size:46px;
 		margin-bottom:0;
-		line-height:27px;
+		line-height:37px;
 		letter-spacing:2px;
 		font-weight:100;
 	}
@@ -286,6 +286,20 @@
 		letter-spacing:2px;
 		margin-bottom:20px;
 	}
+
+	.carousel-caption a {
+		font-size: 30px;
+		font-weight:600;
+		margin-top:0px;
+		border: solid 1px;
+		padding: 5px;
+		text-transform:lowercase;
+		letter-spacing:2px;
+		margin-bottom:20px;
+		color: #ffffff;
+	}
+	.carousel-caption a:hover {
+		background: rgba(51, 51, 51, 0.6)	}
 
 	.home-carousel-left, 
 	.home-carousel-right {	
@@ -325,7 +339,8 @@
 	/* Carousel animation */
 
 	#home-carousel .item h1, 
-	#home-carousel .item h2, 
+	#home-carousel .item h2,
+	#home-carousel .item a,
 	#home-carousel .item p {
 		opacity:0;
 		-moz-transform: scale(0.5);
@@ -343,8 +358,9 @@
 		transition: all 0.5s ease-in-out 0.15s;
 	}
 
-	#home-carousel .item.active h1, 
-	#home-carousel .item.active h2, 
+	#home-carousel .item.active h1,
+	#home-carousel .item.active h2,
+	#home-carousel .item.active a,
 	#home-carousel .item.active p {
 		opacity:1;
 		-moz-transform: scale(1);
@@ -362,6 +378,7 @@
 		transition: all 0.5s ease-in-out 0.30s;
 	}
 
+	#home-carousel .item a,
 	#home-carousel .item p {
 		-webkit-transition: all 0.5s ease-in-out 0.45s;
 		-moz-transition: all 0.5s ease-in-out 0.45s;
@@ -376,7 +393,7 @@
 
 /* 6. SERVICES */
 
-	#services{
+	#services, #oferta{
 		background-color: #f5f5f5;
 		padding-top: 130px;
 		padding-bottom: 120px;
@@ -714,7 +731,7 @@
 /* 11. TESTIMONIAL */
 
 	#testimonial{
-		background-image: url(../images/testimonial-bg.jpg);
+		background-image: url("../images/stx/milanowek/milanowek0364.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
