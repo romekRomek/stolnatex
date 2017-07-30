@@ -1,683 +1,839 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-	<title>STOLNATEXT - Montaż oraz sprzedaż drzwi i okien</title>
-	
-	<!-- Main CSS file -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/owl.carousel.css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" />
-	<link rel="stylesheet" href="css/font-awesome.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/responsive.css" />
+    <title>STOLNATEXT - Montaż oraz sprzedaż drzwi i okien</title>
 
-	
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/icon/favicon.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-57-precomposed.png">
-	
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-	<style>
-		.fa-desktop:before {
-			content:""
-		}
-		.fa-cogs:before {
-			content:""
-		}
-		.fa-code:before {
-			content:""
-		}
-		.fa-life-ring:before {
-			content:""
-		}
-		.fa-weixin:before {
-			content:""
-		}
-		.fa-dashboard:before {
-			content:""
-		}
-	</style>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css"/>
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icon/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icon/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/icon/apple-touch-icon-57-precomposed.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        body {
+            padding: 0 !important;
+        }
+
+        .modal-open {
+            overflow: visible;
+        }
+
+        .fa-desktop:before {
+            content: ""
+        }
+
+        .fa-cogs:before {
+            content: ""
+        }
+
+        .fa-code:before {
+            content: ""
+        }
+
+        .fa-life-ring:before {
+            content: ""
+        }
+
+        .fa-weixin:before {
+            content: ""
+        }
+
+        .fa-dashboard:before {
+            content: ""
+        }
+    </style>
 </head>
 <body>
 
-	<!-- PRELOADER -->
-	<div id="st-preloader">
-		<div id="pre-status">
-			<div class="preload-placeholder"></div>
-		</div>
-	</div>
-	<!-- /PRELOADER -->
-
-	
-	<!-- HEADER -->
-	<header id="header">
-		<nav class="navbar st-navbar navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-				    	<span class="icon-bar"></span>
-				    	<span class="icon-bar"></span>
-				    	<span class="icon-bar"></span>
-					</button>
-					<a class="logo" href="index.html"><strong style="font-size: 30px;">STOLNATEX</strong></a>
-				</div>
-
-				<div class="collapse navbar-collapse" id="st-navbar-collapse">
-					<ul class="nav navbar-nav navbar-right">
-				    	<li><a href="#header">Strona główna</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Oferta <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="oferta/okna.html">Okna</a></li>
-								<li><a href="oferta/drzwi.html">Drzwi</a></li>
-								<li><a href="oferta/rolety.html">Rolety</a></li>
-								<li><a href="oferta/parapety.html">Parapety</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="oferta/podlogi.html">Podłogi</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="oferta/systemy_aluminiowe.html">Systemy aluminiowe</a></li>
-							</ul>
-						</li>				    	<li><a href="#our-works">Realizacje</a></li>
-				    	<li><a href="#about-us">O nas</a></li>
-				    	<li><a href="#our-team">Producenci</a></li>
-				    	<li><a href="#contact">Kontakt</a></li>
-					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container -->
-		</nav>
-	</header>
-	<!-- /HEADER -->
+<!-- PRELOADER -->
+<div id="st-preloader">
+    <div id="pre-status">
+        <div class="preload-placeholder"></div>
+    </div>
+</div>
+<!-- /PRELOADER -->
 
 
-	<!-- SLIDER -->
-	<section id="slider">
-		<div id="home-carousel" class="carousel slide" data-ride="carousel">			
-			<div class="carousel-inner">
-				<div class="item active" style="background-image: url(images/stx/man-measuring-house-window-horizontal-5996066.jpg);background-position: 0px -400px;">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>DORADZIMY I WYCENIMY</h1>
-								<h2>za darmo</h2>
-								<a href="#contact">SKONTAKTUJ SIĘ Z NAMI</a>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/stx/logo25.PNG); background-size: 60%;">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>Autoryzowany przedstawiciel</h1>
-								<h2>PORTA</h2>
-								<p>Lider Rynku Stolarki 2016. Jesteśmy przedstawicielem firmy istniejącej na rynku od 23 lat i produkującej najwyższej jakości drzwi.</p>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/slider/03.jpg)">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>GERDA</h1>
-								<h2>Autoryzowany przedstawiciel</h2>
-								<p>GERDA jest jednym z liderów w dziedzinie produkcji drzwi, zamków i okuć, z zastosowaniem innowacyjnych technologii bezpieczeństwa</p>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<div class="item" style="background-image: url(images/stx/Sokolka_logo_CMYK.jpg);background-size: 50%;">
-					<div class="carousel-caption container">
-						<div class="row">
-							<div class="col-sm-7">
-								<h1>SOKÓŁKA </h1>
-								<h2>okna i drzwi</h2>
-								<p>W 2006 roku firma stała się częścią międzynarodowej grupy INWIDO AB, obecnie największym w Europie dostawcą okien i wiodącym dostawcą drzwi.</p>
-							</div>
-						</div>
-					</div>					
-				</div>
-				<a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-				<a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-			</div>		
-		</div> <!--/#home-carousel--> 
-    </section>
-	<!-- /SLIDER -->
+<!-- HEADER -->
+<header id="header">
+    <nav class="navbar st-navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#st-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="logo" href="index.html"><strong style="font-size: 30px;">STOLNATEX</strong></a>
+            </div>
 
-	
-	<!-- OFERTA -->
-	<section id="services">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Oferta</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-desktop"></i> Okna</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-cogs"></i> Drzwi</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-code"></i> Rolety</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-dashboard"></i>Parapety</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-life-ring"></i> Podłogi</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-
-				<div class="col-md-4 col-sm-6 st-service">
-					<h2><i class="fa fa-weixin"></i>Systemy aluminiowe</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta libero autem, magni veritatis, optio dolor.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /OFERTA -->
+            <div class="collapse navbar-collapse" id="st-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#header">Strona główna</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Oferta <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="oferta/okna.html">Okna</a></li>
+                            <li><a href="oferta/drzwi.html">Drzwi</a></li>
+                            <!--<li><a href="oferta/rolety.html">Rolety</a></li>-->
+                            <li><a href="oferta/parapety.html">Parapety</a></li>
+                            <!--<li role="separator" class="divider"></li>
+                            <li><a href="oferta/podlogi.html">Podłogi</a></li>
+                            <li role="separator" class="divider"></li>-->
+                            <li><a href="oferta/systemy_aluminiowe.html">Systemy aluminiowe</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#our-works">Realizacje</a></li>
+                    <li><a href="#about-us">O nas</a></li>
+                    <!--<li><a href="#our-team">Producenci</a></li>-->
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</header>
+<!-- /HEADER -->
 
 
-	<!-- OUR WORKS -->
-	<section id="our-works">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Nasze realizacje</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-
-				<div class="portfolio-wrapper" >
-					<div class="col-md-12">
-						<ul class="filter">  			
-							<li><a class="active" href="#" data-filter="*">wszystko</a></li>
-							<li><a href="#" data-filter=".okna">okna</a></li>
-							<li><a href="#" data-filter=".drzwi">drzwi</a></li>
-							<li><a href="#" data-filter=".rolety">rolety</a></li>
-							<li><a href="#" data-filter=".parapety">parapety</a></li>
-							<li><a href="#" data-filter=".podłogi">podłogi</a></li>
-						</ul><!--/#portfolio-filter-->
-					</div>
-					
-					<div class="portfolio-items">
-						
-						<div class="col-md-4 col-sm-6 work-grid graphic">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/grodzisk/20140718007.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/grodzisk/20140718007.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/latwchorzew/wtorek1.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/latwchorzew/wtorek1.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-md-4 col-sm-6 work-grid wordpress graphic">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/lazy_jord/IMG_20170228_154651.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/lazy_jord/IMG_20170228_154651.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/milanowek/milanowek0364.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/milanowek/milanowek0364.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/owczarnia/Zdjęcie0280.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/owczarnia/Zdjęcie0280.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-						<div class="col-md-4 col-sm-6 work-grid html bootstrap graphic">
-							<div class="portfolio-content">
-								<img class="img-responsive" src="images/stx/poddebie/IMG_20170421_131623.jpg" alt="">
-								<div class="portfolio-overlay">
-									<a href="images/stx/poddebie/IMG_20170421_131623.jpg"><i class="fa fa-camera-retro"></i></a>
-									<h5>Web Development</h5>
-									<p>Design, Develop</p>
-								</div>
-							</div>	
-						</div>
-						
-					</div>				
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- /OUR WORKS -->
-
-	
-	<!-- PRICING
-	<section id="pricing">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Pricing</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Basic</h5>
-						<h3>$39</h3>
-						<div class="st-border"></div>
-						<ul>
-							<li>Free Download</li>
-							<li>1000+ Softwear</li>
-							<li>Full Access</li>
-							<li>Free Update</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="" class="btn btn-send">Sign Up</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Silver</h5>
-						<h3>$89</h3>
-						<div class="st-border"></div>
-						<ul>
-							<li>Free Download</li>
-							<li>1000+ Softwear</li>
-							<li>Full Access</li>
-							<li>Free Update</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="" class="btn btn-send">Sign Up</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="st-pricing text-center">
-						<h5>Gold</h5>
-						<h3>$209</h3>
-						<div class="st-border"></div>
-						<ul>
-							<li>Free Download</li>
-							<li>1000+ Softwear</li>
-							<li>Full Access</li>
-							<li>Free Update</li>
-							<li>Live Support</li>
-						</ul>
-						<a href="" class="btn btn-send">Sign Up</a>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- /PRICING -->
+<!-- SLIDER -->
+<section id="slider"  style="background-image: url(images/stx/man-measuring-house-window-horizontal-5996066.jpg);background-position: 0px -400px;    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;">
+    <div id="home-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active"
+                 >
+                <div class="carousel-caption container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <h1>DORADZIMY I WYCENIMY</h1>
+                            <h2>za darmo</h2>
+                            <a href="#contact">SKONTAKTUJ SIĘ Z NAMI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/stx/Sokolka_logo_CMYK.jpg); background-size: 60%;">
+                <div class="carousel-caption container">
+                    <div class="row">
+                        <div class="col-sm-7">
 
 
-	<!-- OUR TEAM
-	<section id="our-team">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Our Team</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
+                            <h2>Autoryzowany przedstawiciel</h2>
+                            <h1>Sokółka Okna i Drzwi</h1>
+                            <p>W 2006 roku firma stała się częścią międzynarodowej grupy INWIDO AB, obecnie największym
+                                w Europie dostawcą okien i wiodącym dostawcą drzwi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/stx/cal.jpg); background-size:38%">
+                <div class="carousel-caption container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <h2>Autoryzowany przedstawiciel</h2>
+                            <h1>CAL</h1>
 
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/team1.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Khalil Uddin</h4>
-							<span>Designer</span>
-						</div>
-					</div>
-				</div>
+                            <p> Istnieje na polskim rynku jako spółka jawna z polskim kapitałem od 1985 roku. Wyznaczają
+                                trendy w wyposażeniu i projektowaniu drzwi włączając do naszej oferty skrzydła o
+                                nowatorskich konstrukcjach, designerskim wyglądzie oraz okuciach najlepszych światowych
+                                producentów. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item"
+                 style="background-image: url(images/stx/znak-plastimet-wersja-podstawowa.jpg);background-size: 50%;background-position-y: 38px;">
+                <div class="carousel-caption container">
+                    <div class="row">
+                        <div class="col-sm-7">
 
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Rubel Miah</h4>
-							<span>Lead Developer</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/team1.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Shamim Shohag</h4>
-							<span>Developer</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<div class="member-image">
-							<img class="img-responsive" src="images/members/team2.jpg" alt="">
-							<div class="member-social">
-								<a href=""><i class="fa fa-facebook"></i></a>
-								<a href=""><i class="fa fa-twitter"></i></a>
-								<a href=""><i class="fa fa-google-plus"></i></a>
-								<a href=""><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-						<div class="member-info">
-							<h4>Zubayer Rahman</h4>
-							<span>Marketer</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /OUR TEAM -->
+                            <h2>Autoryzowany przedstawiciel </h2>
+                            <h1>Plastimet</h1>
+                            <p>Ponad dwudziestoletnie doświadczenie pozwoliło uzyskać wzorowy proces produkcji. W
+                                oparciu o najnowocześniejsze urządzenia uznanych na świecie liderów, stworzono
+                                innowacyjny park maszynowy, dzięki któremu PLASTIMET jest w stanie sprostać niemal
+                                każdemu wyzwaniu związanemu z produkcją okien i drzwi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        </div>
+    </div> <!--/#home-carousel-->
+</section>
+<!-- /SLIDER -->
 
 
-	<!-- ABOUT US -->
-	<section id="about-us">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-6">
-					<div class="about-us text-center">
-						<h4>O nas</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum aliquid obcaecati deleniti minus quisquam quis magnam reprehenderit quaerat molestias rerum, excepturi autem fugiat corporis quidem a ipsum quos beatae! Ut!</p>
-						<a href="" class="btn btn-send">Czytaj więcej</a>
-					</div>
-				</div>
-				<div class="col-sm-6 our-office">
-					<div id="office-carousel" class="carousel slide" data-ride="carousel">			
-						<div class="carousel-inner">
-							<div class="item active">
-								<img src="images/stx/salon/stolnatex_salon01.JPG" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon02.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon03.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon04.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon05.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon06.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon07.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon08.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon09.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon10.jpg" alt="salon stolnatex">
-							</div>
-							<div class="item">
-								<img src="images/stx/salon/stolnatex_salon11.jpg" alt="salon stolnatex">
-							</div>
-								<a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-							<a class="office-carousel-right" href="#office-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
-						</div>		
-					</div> <!--/#office-carousel--> 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /ABOUT US -->
-	
-	<!-- TESTIMONIAL -->
-	<section id="testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="overlay"></div>
-				<div class="col-md-8 col-md-offset-2 col-sm-12">
-					<div class="st-testimonials">
+<!-- OFERTA -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Oferta</h1>
+                    <span class="st-border"></span>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-desktop"></i> Okna</h2>
+            </div>
 
-						<div class="item active text-center">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cum"</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>Tom Roof</h5>
-								<span>CEO of Domain.com</span>
-							</div>
-						</div>
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-cogs"></i> Drzwi</h2>
+            </div>
 
-						<div class="item text-center">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cumconsectetur adipisicing elit. Amet dolore"</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>Mustafiz</h5>
-								<span>CEO of Domain.com</span>
-							</div>
-						</div>
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-code"></i> Rolety</h2>
+            </div>
 
-						<div class="item text-center">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem autem possimus laborum, ducimus vel rerum asperiores delectus, suscipit voluptate mollitia, ullam perspiciatis voluptates!"</p>
-							<div class="st-border"></div>
-							<div class="client-info">
-								<h5>Sean Hynes</h5>
-								<span>CEO of Domain.com</span>
-							</div>
-						</div>
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-dashboard"></i>Parapety</h2>
+            </div>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /TESTIMONIAL -->
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-life-ring"></i> Podłogi</h2>
+            </div>
+
+            <div class="col-md-6 col-sm-6 st-service text-center">
+                <h2><i class="fa fa-weixin"></i>Systemy aluminiowe</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /OFERTA -->
 
 
+<!-- OUR WORKS -->
+<section id="our-works">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Nasze realizacje</h1>
+                    <span class="st-border"></span>
+                </div>
+            </div>
 
-	<!-- FUN FACTS -->
-	<section id="fun-facts">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-3">
-					<div class="fun-fact text-center">
-						<h3><i class="fa fa-thumbs-o-up"></i> <span class="st-counter">365</span></h3>
-						<p>Zadowolonych klientów</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="fun-fact text-center">
-						<h3><i class="fa fa-briefcase fa-6"></i> <span class="st-counter">73987</span></h3>
-						<p>Zrealizowanych zleceń</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="fun-fact text-center">
-						<h3><i class="fa fa-coffee"></i> <span class="st-counter">297345</span></h3>
-						<p>Wstawionych okien</p>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-3">
-					<div class="fun-fact text-center">
-						<h3><i class="fa fa-code"></i> <span class="st-counter">9823686</span></h3>
-						<p>Wstawionych drzwi</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /FUN FACTS -->
+            <div class="portfolio-wrapper">
+                <div id="filters" class="col-md-12">
+                    <ul class="filter">
+                        <li><a class="active" href="#" data-filter="*">wszystko</a></li>
+                        <li><a href="#" data-filter=".okna">okna</a></li>
+                        <li><a href="#" data-filter=".drzwi">drzwi</a></li>
+                        <li><a href="#" data-filter=".rolety">rolety</a></li>
+                        <li><a href="#" data-filter=".parapety">parapety</a></li>
+                        <li><a href="#" data-filter=".podłogi">podłogi</a></li>
+                    </ul><!--/#portfolio-filter-->
+                </div>
 
-	
-	<!-- CONTACT -->
-	<section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title">
-						<h1>Skontaktuj się z nami</h1>
-						<span class="st-border"></span>
-					</div>
-				</div>
-				<div class="col-sm-4 contact-info">
-					<p class="contact-content">Nasz przedstawiciel bezpłatnie doradzi Państwu w wyborze produktów oraz usług, wykona pomiary oraz wyceni zlecenie.</p>
-					<p class="st-address"><i class="fa fa-map-marker"></i> <strong>Pruszków 05-800, <br> ul. Aleje Jerozolimskie 416a</strong></p>
-					<p class="st-phone"><i class="fa fa-mobile"></i> <strong>kom.: +48 601 947 099, <br> tel.: +48 (22) 753 57 52</strong></p>
-					<p class="st-email"><i class="fa fa-envelope-o"></i> <strong>pruszkow@sokolka.com.pl</strong></p>
-					<p class="st-website"><i class="fa fa-globe"></i> <strong>www.stolnatex.waw.pl</strong></p>
-				
-				</div>
-				<div class="col-sm-7 col-sm-offset-1">
-					<form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
-						<div class="row">
-							<div class="col-sm-6">
-								<input type="text" name="name" required="required" placeholder="Imię*" aria-required="true">
-							</div>
-							<div class="col-sm-6">
-								<input type="email" name="email" required="required" placeholder="Email*" aria-required="true">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="subject" placeholder="Temat">
-							</div>
-							<div class="col-sm-6">
-								<input type="text" name="website" placeholder="Website">
-							</div>
-							<div class="col-sm-12">
-								<textarea name="message" required="required" cols="30" rows="7" placeholder="Wiadomość*" aria-required="true"></textarea>
-							</div>
-							<div class="col-sm-12">
-								<input type="submit" name="submit" value="Wyślij wiadomość" class="btn btn-send">
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /CONTACT -->
+                <div class="portfolio-items">
 
-	<!-- FOOTER -->
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<!-- SOCIAL ICONS -->
-				<div class="col-sm-6 col-sm-push-6 footer-social-icons">
-					<span>Follow us:</span>
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-google-plus"></i></a>
-					<a href=""><i class="fa fa-pinterest-p"></i></a>
-				</div>
-				<!-- /SOCIAL ICONS -->
-				<div class="col-sm-6 col-sm-pull-6 copyright">
-					<p>STOLNATEX &copy; 2017</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- /FOOTER -->
+                    <div class="col-md-4 col-sm-6 items okna drzwi">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/grodzisk/4.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/grodzisk/4.jpg" data-toggle="lightbox"
+                                   data-gallery="grodzisk"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Grodzisk</h5>
+                                <p>Okna, drewno</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 items okna drzwi">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/latchorzew/latchorzew3.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/latchorzew/latchorzew3.jpg" data-toggle="lightbox"
+                                   data-gallery="latchorzew"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Łatchorzew</h5>
+                                <p>Drzwi przesuwne</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 drzwi">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/lazy_jord/IMG_20170228_154651.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/lazy_jord/jord2.jpg" data-toggle="lightbox"
+                                   data-gallery="jord"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Lazy Jord</h5>
+                                <p>Drzwi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 okna drzwi">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/milanowek/milanowek1.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/milanowek/milanowek1.jpg" data-toggle="lightbox"
+                                   data-gallery="milanowek"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Milanówek</h5>
+                                <p>Okna, drzwi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 okna drzwi">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/owczarnia/owczarnia1.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/owczarnia/owczarnia1.jpg" data-toggle="lightbox"
+                                   data-gallery="owczarnia"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Owczarnia</h5>
+                                <p>Okna, drzwi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
+                        <div class="portfolio-content">
+                            <img class="img-responsive" src="images/stx/poddebie/poddebie6.jpg">
+                            <div class="portfolio-overlay">
+                                <a href="images/stx/poddebie/poddebie6.jpg" data-toggle="lightbox"
+                                   data-gallery="poddebie"><i class="fa fa-camera-retro"></i></a>
+                                <h5>Poddębie</h5>
+                                <p>Okna, drzwi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- elements not showing, use data-remote -->
+                    <div data-toggle="lightbox" data-gallery="grodzisk" data-remote="images/stx/grodzisk/1.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="grodzisk" data-remote="images/stx/grodzisk/2.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="grodzisk" data-remote="images/stx/grodzisk/3.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="latchorzew"
+                         data-remote="images/stx/latchorzew/latchorzew1.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="latchorzew"
+                         data-remote="images/stx/latchorzew/latchorzew2.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="jord" data-remote="images/stx/lazy_jord/jord1.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="jord" data-remote="images/stx/lazy_jord/jord3.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="milanowek"
+                         data-remote="images/stx/milanowek/milanowek2.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="milanowek"
+                         data-remote="images/stx/milanowek/milanowek4.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="milanowek"
+                         data-remote="images/stx/milanowek/milanowek5.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="milanowek"
+                         data-remote="images/stx/milanowek/milanowek6.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="owczarnia"
+                         data-remote="images/stx/owczarnia/owczarnia2.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="owczarnia"
+                         data-remote="images/stx/owczarnia/owczarnia3.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="owczarnia"
+                         data-remote="images/stx/owczarnia/owczarnia4.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="owczarnia"
+                         data-remote="images/stx/owczarnia/owczarnia5.jpg" data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie1.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie2.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie3.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie4.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie5.jpg"
+                         data-title=""></div>
+                    <div data-toggle="lightbox" data-gallery="poddebie" data-remote="images/stx/poddebie/poddebie7.jpg"
+                         data-title=""></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /OUR WORKS -->
 
 
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<ul><li><a href="#header"><i class="fa fa-angle-up"></i></a></li></ul>
-	</div>
+<!-- PRICING
+<section id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Pricing</h1>
+                    <span class="st-border"></span>
+                </div>
+            </div>
 
-	
-	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-	<script type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
-	<script type="text/javascript" src="js/smoothscroll.js"></script><!-- Smooth Scroll -->
-	<script type="text/javascript" src="js/masonry.pkgd.min.js"></script><!-- masonry -->
-	<script type="text/javascript" src="js/jquery.fitvids.js"></script><!-- fitvids -->
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
-	<script type="text/javascript" src="js/jquery.counterup.min.js"></script><!-- CounterUp -->
-	<script type="text/javascript" src="js/waypoints.min.js"></script><!-- CounterUp -->
-	<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- isotope -->
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
-	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
+            <div class="col-sm-4">
+                <div class="st-pricing text-center">
+                    <h5>Basic</h5>
+                    <h3>$39</h3>
+                    <div class="st-border"></div>
+                    <ul>
+                        <li>Free Download</li>
+                        <li>1000+ Softwear</li>
+                        <li>Full Access</li>
+                        <li>Free Update</li>
+                        <li>Live Support</li>
+                    </ul>
+                    <a href="" class="btn btn-send">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="st-pricing text-center">
+                    <h5>Silver</h5>
+                    <h3>$89</h3>
+                    <div class="st-border"></div>
+                    <ul>
+                        <li>Free Download</li>
+                        <li>1000+ Softwear</li>
+                        <li>Full Access</li>
+                        <li>Free Update</li>
+                        <li>Live Support</li>
+                    </ul>
+                    <a href="" class="btn btn-send">Sign Up</a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="st-pricing text-center">
+                    <h5>Gold</h5>
+                    <h3>$209</h3>
+                    <div class="st-border"></div>
+                    <ul>
+                        <li>Free Download</li>
+                        <li>1000+ Softwear</li>
+                        <li>Full Access</li>
+                        <li>Free Update</li>
+                        <li>Live Support</li>
+                    </ul>
+                    <a href="" class="btn btn-send">Sign Up</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /PRICING -->
+
+
+<!-- OUR TEAM
+<section id="our-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Our Team</h1>
+                    <span class="st-border"></span>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img class="img-responsive" src="images/members/team1.jpg" alt="">
+                        <div class="member-social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-google-plus"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Khalil Uddin</h4>
+                        <span>Designer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img class="img-responsive" src="images/members/team2.jpg" alt="">
+                        <div class="member-social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-google-plus"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Rubel Miah</h4>
+                        <span>Lead Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img class="img-responsive" src="images/members/team1.jpg" alt="">
+                        <div class="member-social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-google-plus"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Shamim Shohag</h4>
+                        <span>Developer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img class="img-responsive" src="images/members/team2.jpg" alt="">
+                        <div class="member-social">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-google-plus"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4>Zubayer Rahman</h4>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /OUR TEAM -->
+
+
+<!-- ABOUT US -->
+<section id="about-us">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="about-us text-center">
+                    <h4>O nas</h4>
+                    <p>STOLNATEX to Przedsiębiorstwo Handlowo-Usługowe mieszczące się w Pruszkowie (Aleje Jerozolimskie
+                        416A). Firma istnieje na
+                        polskim rynku nieprzerwanie od 1995 roku. Jesteśmy autoryzowanym przedstawicielem handlowym
+                        PLASTIMET oraz CAL, a także <a href="http://salon-pruszkow.sokolka.com.pl/"
+                                                       style="text-decoration: underline;" target="_blank"><strong>oficjalnym
+                            dystrybutorem firmy Sokółka Okna i Drzwi</strong></a>. W skład naszej
+                        autoryzowanej ekipy montażowej wchodzą wyłącznie specjaliści ds. instalacji okien i drzwi. Część
+                        z nich współpracuje z nami niemal od początku istnienia firmy. Nieprzerwanie od 22 lat zdobywamy
+                        doświadczenie oraz aktywnie uczestniczymy w szkoleniach związanych z montażem oraz doradztwem.
+                        Zajmujemy się sprzedażą i montażem drzwi, okien oraz akcesoriów okiennych. Do każdego klienta
+                        podchodzimy indywidualnie, posiadamy szeroką ofertę produktów i możliwość zamówienia okien o
+                        dowolnych parametrach. Zajmujemy się również serwisem i konserwacją okien.
+                    </p>
+                    <!--<a href="" class="btn btn-send">Czytaj więcej</a>-->
+                </div>
+            </div>
+            <div class="col-sm-6 our-office">
+                <div id="office-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/stx/salon/stolnatex_salon1.JPG" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon2.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon3.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon4.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon5.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon6.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon7.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon8.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon9.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon10.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon11.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon12.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon13.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon14.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon15.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon16.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon17.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon18.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon19.jpg" alt="salon stolnatex">
+                        </div>
+                        <div class="item">
+                            <img src="images/stx/salon/stolnatex_salon20.jpg" alt="salon stolnatex">
+                        </div>
+                        <a class="office-carousel-left" href="#office-carousel" data-slide="prev"><i
+                                class="fa fa-angle-left"></i></a>
+                        <a class="office-carousel-right" href="#office-carousel" data-slide="next"><i
+                                class="fa fa-angle-right"></i></a>
+                    </div>
+                </div> <!--/#office-carousel-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /ABOUT US -->
+
+<!-- TESTIMONIAL -->
+<section id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="overlay"></div>
+            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                <div class="st-testimonials carousel slide" id="fade-quote-carousel" data-ride="carousel"
+                     data-interval="3000">
+                    <!-- Carousel indicators -->
+
+                    <div class="carousel-inner">
+                        <div class="item active text-center">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus
+                                ullam
+                                possimus quas obcaecati suscipit voluptate facilis cum"</p>
+                            <div class="st-border"></div>
+                            <div class="client-info">
+                                <h5>Tom Roof</h5>
+                                <span>CEO of Domain.com</span>
+                            </div>
+                        </div>
+
+                        <div class="item text-center">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus
+                                ullam
+                                possimus quas obcaecati suscipit voluptate facilis cumconsectetur adipisicing elit. Amet
+                                dolore"</p>
+                            <div class="st-border"></div>
+                            <div class="client-info">
+                                <h5>Mustafiz</h5>
+                                <span>CEO of Domain.com</span>
+                            </div>
+                        </div>
+
+                        <div class="item text-center">
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem autem possimus laborum,
+                                ducimus vel rerum asperiores delectus, suscipit voluptate mollitia, ullam perspiciatis
+                                voluptates!"</p>
+                            <div class="st-border"></div>
+                            <div class="client-info">
+                                <h5>Sean Hynes</h5>
+                                <span>CEO of Domain.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /TESTIMONIAL -->
+
+
+<!-- FUN FACTS -->
+<section id="fun-facts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><i class="fa fa-thumbs-o-up"></i> <span class="st-counter">365</span></h3>
+                    <p>Zadowolonych klientów</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><i class="fa fa-briefcase fa-6"></i> <span class="st-counter">3987</span></h3>
+                    <p>Zrealizowanych zleceń</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><i class="fa fa-coffee"></i> <span class="st-counter">7345</span></h3>
+                    <p>Wstawionych okien</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="fun-fact text-center">
+                    <h3><i class="fa fa-code"></i> <span class="st-counter">2686</span></h3>
+                    <p>Wstawionych drzwi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /FUN FACTS -->
+
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Skontaktuj się z nami</h1>
+                    <span class="st-border"></span>
+                </div>
+            </div>
+            <div class="col-sm-4 contact-info">
+                <p class="contact-content">Nasz przedstawiciel bezpłatnie doradzi Państwu w wyborze produktów oraz
+                    usług, wykona pomiary oraz wyceni zlecenie.</p>
+                <p class="st-address"><a
+                        href="https://www.google.pl/maps/place/Aleje+Jerozolimskie+416A,+Pruszk%C3%B3w/@52.1736999,20.833406,17z/data=!3m1!4b1!4m5!3m4!1s0x471935a44525feb3:0x7f33d59cc1ada1b7!8m2!3d52.1736999!4d20.8356"
+                        target="_blank"><i class="fa fa-map-marker"></i> <strong>Pruszków 05-800, <br> ul. Aleje
+                    Jerozolimskie 416a</strong></a></p>
+                <p class="st-phone"><a href="tel:601947099"><i class="fa fa-mobile"></i>
+                    <strong><span>+48 601 947 099</span></strong></a></p><p class="st-phone"><a
+                        href="tel:227535752"><i class="fa fa-mobile"></i><strong><span>&nbsp;+48 (22) 753
+                    57 52</span></strong></a></p>
+                <p class="st-email"><a href="mailto:firma@stolnatex.waw.pl"><i class="fa fa-envelope-o"></i> <strong>firma@stolnatex.waw.pl</strong></a>
+                </p>
+
+            </div>
+            <div class="col-sm-7 col-sm-offset-1">
+                <form action="php/send-contact.php" class="contact-form" name="contact-form" method="post">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" required="required" placeholder="Imię*" aria-required="true">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" required="required" placeholder="Email*"
+                                   aria-required="true">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" name="subject" placeholder="Temat*" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" required="required" cols="30" rows="7" placeholder="Wiadomość*"
+                                      aria-required="true"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" name="submit" value="Wyślij wiadomość" class="btn btn-send">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /CONTACT -->
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <!-- SOCIAL ICONS -->
+            <div class="col-sm-6 col-sm-push-6 footer-social-icons">
+                <span>Follow us:</span>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-pinterest-p"></i></a>
+            </div>
+            <!-- /SOCIAL ICONS -->
+            <div class="col-sm-6 col-sm-pull-6 copyright">
+                <p>STOLNATEX &copy; 2017</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /FOOTER -->
+
+<!-- Scroll-up -->
+<div class="scroll-up">
+    <ul>
+        <li><a href="#header"><i class="fa fa-angle-up"></i></a></li>
+    </ul>
+</div>
+
+
+<!-- JS -->
+<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
+<script type="text/javascript" src="js/jquery.parallax.js"></script><!-- Parallax -->
+<script type="text/javascript" src="js/smoothscroll.js"></script><!-- Smooth Scroll -->
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script><!-- masonry -->
+<script type="text/javascript" src="js/jquery.fitvids.js"></script><!-- fitvids -->
+<script type="text/javascript" src="js/owl.carousel.min.js"></script><!-- Owl-Carousel -->
+<script type="text/javascript" src="js/jquery.counterup.min.js"></script><!-- CounterUp -->
+<script type="text/javascript" src="js/waypoints.min.js"></script><!-- CounterUp -->
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script><!-- isotope -->
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script><!-- magnific-popup -->
+<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                alwaysShowClose: false,
+                onShown: function () {
+                    console.log('Checking our the events huh?');
+                },
+                onNavigate: function (direction, itemIndex) {
+                    console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+                }
+            });
+        });
+        $('ul.nav li.dropdown').hover(function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        }, function() {
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        });
+
+    });</script>
 
 
 </body>

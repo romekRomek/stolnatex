@@ -17,36 +17,6 @@
 
 
     // ---------------------------------------------- 
-    //  magnific-popup
-    // ----------------------------------------------
-	(function () {
-
-		$('.portfolio-items').magnificPopup({ 
-			delegate: 'a',
-			type: 'image',
-			// other options
-			closeOnContentClick: false,
-			closeBtnInside: false,
-			mainClass: 'mfp-with-zoom mfp-img-mobile',
-
-			gallery: {
-				enabled: false
-			},
-			zoom: {
-				enabled: true,
-				duration: 300, // don't foget to change the duration also in CSS
-				opener: function(element) {
-					return element.find('i');
-				}
-			}
-
-		});
-
-	}()); 
-
-
-
-    // ---------------------------------------------- 
     // Fun facts
     // ---------------------------------------------- 
 	(function () {
@@ -85,7 +55,7 @@
 			var selector = $filter.find('a.active').attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -102,7 +72,7 @@
 			var selector = $(this).attr('data-filter');
 
 			try {
-				$container.isotope({ 
+				$container.isotope({
 					filter	: selector,
 					animationOptions: {
 						duration: 750,
@@ -126,7 +96,7 @@
 				$this.addClass('active');
 			}
 		});
-	}()); 
+	}());
 
 
 	// -------------------------------------------------------------
@@ -186,7 +156,7 @@
             }
         });
     }());
-	
+
 
     // ----------------------------------------------
     // Parallax Scrolling
@@ -200,19 +170,5 @@
 		}	
 		parallaxInit();
 	}());
-
-	
-
-    // ----------------------------------------------
-    // fitvids js
-    // ----------------------------------------------
-    (function () {
-
-        $(".post-video").fitVids();
-
-    }()); 
-
-
-	
 
 });
